@@ -21,7 +21,7 @@ const usuarios = [
 ];
 
 
-app.get('/', (req, res) => {
+app.get('/usuarios', (req, res) => {
     res.send(usuarios);
 })
 
